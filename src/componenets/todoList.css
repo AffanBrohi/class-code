@@ -1,0 +1,86 @@
+.todo-list{
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    padding: 30px;
+    background-color:#F2F0DF;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+input{
+    width: 400px;
+    height: 40px;
+    font-size: 17px;
+    padding-left: 20px;
+    margin-left: 100px;
+    border-radius: 5px;
+    border: none;
+    /* background-color: transparent; */
+    border: 3px solid white;
+}
+
+
+
+.add{
+    width: 80px;
+    height: 30px;
+    /* padding: 10px; */
+    background-color: #228B22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    transition: 0.3s;   
+}
+.add:hover{
+    background-color: #006400;
+}
+
+.items{
+    /* border: 1px solid red; */
+    height: 260px;
+    margin-top: 10px;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+}
+
+
+li{
+    border: 2px solid #C2E5D3;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 13px 15px 4px 10px;
+    height: 45px;
+
+}
+
+.edit{
+    float: left;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #E1AD01;
+    margin-top: 2px;
+}
+
+.delete{
+    transition: 0.3s;
+    float: right;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    color: #FF0000;
+    cursor: pointer;
+    font-size: 18px;
+}
